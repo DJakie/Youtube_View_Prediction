@@ -10,11 +10,12 @@
 
 **Modeling and Results**:
 - Tested multiple models, including Linear Regression, Decision Trees, Random Forest, and XGBoost.
+- Used 5-fold cross-validation to fine-tune the XGBoost model.
 - **XGBoost** achieved the best performance with hyperparameter tuning:
   - **Train R²**: 0.9991 | **Test R²**: 0.9921
   - **Train RMSE**: 0.0862 | **Test RMSE**: 0.2160
   - **MAPE**: ~0.32% on test data
-- Used 5-fold cross-validation to fine-tune the XGBoost model.
+
 
 **Feature Importance**:
 The most impactful features include:
